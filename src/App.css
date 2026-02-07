@@ -1,0 +1,149 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.app-header {
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.app-subtitle {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.message {
+  padding: 1rem;
+  text-align: center;
+  color: #555;
+}
+
+.message-error {
+  background: #fef2f2;
+  color: #b91c1c;
+  border-radius: 6px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.product-table th {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #111827;
+  background: #f3f4f6;
+  border-bottom: 2px solid #d1d5db;
+}
+
+.product-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.product-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.editable-cell-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.25rem 0;
+  border: none;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.editable-cell-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.editable-cell-icon {
+  flex-shrink: 0;
+  color: #6b7280;
+}
+
+.editable-cell-trigger:hover .editable-cell-icon {
+  color: #2563eb;
+}
+
+.editable-cell-trigger:hover {
+  background: #f0f0f0;
+}
+
+.editable-cell-trigger:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.editable-cell-input {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #2563eb;
+  border-radius: 4px;
+  font: inherit;
+}
+
+.editable-cell-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+
+.scroll-sentinel {
+  height: 1px;
+  width: 100%;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.loading-more {
+  padding: 1rem;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.end-message {
+  padding: 1rem;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .product-table th,
+  .product-table td {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}
