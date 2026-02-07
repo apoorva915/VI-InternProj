@@ -27,7 +27,7 @@ Open [http://localhost:5173](http://localhost:5173).
 
 ## Deployed URL
 
-<!-- Add your deployed URL here (e.g. Vercel, Netlify) -->
+https://vi-intern-proj.vercel.app/<!-- Add your deployed URL here (e.g. Vercel, Netlify) -->
 
 ## Features
 
